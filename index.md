@@ -37,6 +37,6 @@ Notice that there is no prompt to input the password this time.
 
 ### 6. Optimizing Remote Running
 * Using the knowledge that we can add commands in quotes to the end of an ssh command to login and then run those commands, we can further optimize this process. If we first use our scp command like before to copy a new file over to the server from the client, for example, WhereAmI.java, then we use ssh and add commands at the end to run it, the whole thing will only take two commands and no in between steps like inputting the password, since we have fixed that problem. 
-* So, after using `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/` to copy over the file (replacing zz). Then, run the following command to login and run the file. 
+* So, after using `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/` to copy over the file (replacing zz). Then, run the following command to login and run the file. (Once again, use whatever is sepcific to your class acount instead of aso which is for mine.)
 ![Image](optimize.png)
 * Once this is done, it should login, compile and run the program!
