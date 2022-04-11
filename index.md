@@ -31,5 +31,12 @@ Steps for logging into a course-specific account on ieng6:
 * Then, it will give a randomart key. You can ignore this. This process creates two files on your computer: a public key (id_rsa.pub) and a private one (id_rsa) in a .ssh folder.
 * From there, login to the server once more and create a ".ssh" folder using `ssh` to login like before and then `mkdir .ssh` to create the folder. Logout once more. 
 * Once you're back on the client terminal, run the command `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` to copy over the public key to the server. Again, replace <user-name> with your user and zz with the class acount letters.
-*After it's all done, it should work without having to sign in every time. As a result of running ssh to login again after all this is done, it should respond with something similar to this: ![Image](keygen.png)
+*After it's all done, it should work without having to sign in every time. As a result of running ssh to login again after all this is done, it should respond with something similar to this: 
+![Image](key.png)
 Notice that there is no prompt to input the password this time.
+
+### 6. Optimizing Remote Running
+* Using the knowledge that we can add commands in quotes to the end of an ssh command to login and then run those commands, we can further optimize this process. If we first use our scp command like before to copy a new file over to the server from the client, for example, WhereAmI.java, then we use ssh and add commands at the end to run it, the whole thing will only take two commands and no in between steps like inputting the password, since we have fixed that problem. 
+* So, after using `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/` to copy over the file (replacing zz). Then, run the following command to login and run the file. 
+![Image](optimize.png)
+* Once this is done, it should login, compile and run the program!
