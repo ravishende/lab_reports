@@ -25,3 +25,11 @@ Steps for logging into a course-specific account on ieng6:
 * Running this command on my computer referencing the file WhereAmI.java, you can see I went through the same process and I am currently in the directory on the client side. ![Image](scp1.png)
 * Then, once I login again with ssh and look around, you can see that the file WhereAmI.java got copied over to the server. ![Image](scp2.png)
 
+### 5. Setting an SSH Key
+* Currently, every time we try to login or use scp, we have to retype out or password. This can be solved with the use of ssh keys.
+* In order to set this up, on your computer first run `ssh-keygen` It will ask you to input a passphrase or hit enter for none. Since we don't want to retype out a pasword every time, hit enter. Hit it once more to confirm. 
+* Then, it will give a randomart key. You can ignore this. This process creates two files on your computer: a public key (id_rsa.pub) and a private one (id_rsa) in a .ssh folder.
+* From there, login to the server once more and create a ".ssh" folder using `ssh` to login like before and then `mkdir .ssh` to create the folder. Logout once more. 
+* Once you're back on the client terminal, run the command `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` to copy over the public key to the server. Again, replace <user-name> with your user and zz with the class acount letters.
+*After it's all done, it should work without having to sign in every time. As a result of running ssh to login again after all this is done, it should respond with something similar to this: ![Image](ssh-keygen.png)
+Notice that there is no prompt to input the password this time.
