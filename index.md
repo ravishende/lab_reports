@@ -33,6 +33,7 @@ Steps for logging into a course-specific account on ieng6:
 * Once you're back on the client terminal, run the command `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` to copy over the public key to the server. Again, replace <user-name> with your user and zz with the class acount letters.
 *After it's all done, it should work without having to sign in every time. As a result of running ssh to login again after all this is done, it should respond with something similar to this: 
 ![Image](new.png)
+![Image](test.png)
 Notice that there is no prompt to input the password this time.
 
 ### 6. Optimizing Remote Running
