@@ -1,5 +1,6 @@
-# Lab Report 1
+[Home](index.md)
 
+# Lab Report 1
 
 Steps for logging into a course-specific account on ieng6:
 ### 1. Download and install VScode
