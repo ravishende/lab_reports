@@ -1,3 +1,3 @@
-[Home](index.md)
+[Home](../index.md)
 
 # Lab Report 2
