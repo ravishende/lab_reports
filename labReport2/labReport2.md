@@ -10,6 +10,7 @@ Code change: ![Image](images/change1.png)
 
 
 Test file that caused the error: [test2.md](https://github.com/ravishende/markdown-parser/blob/main/test2.md?plain=1)
+
 Note: if you look at the file in the view in github desktop, it appears that there isn’t an empty line at the end, but that is just github hiding it. If you were to edit the file in github (or fork the repo), you will see that there is indeed a third, empty line that is just not shown by github’s public view of the file, probably because generally empty lines at the end of code don’t matter, so github doesn’t usually need to show it.
 
 
