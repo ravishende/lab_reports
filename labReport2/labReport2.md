@@ -2,9 +2,7 @@
 
 # Lab Report 2
 
-### Bugs and Fixes:
-
-* Bug: Empty line at end of code causes a forever loop
+## Bug: Empty line at end of code causes a forever loop
 
 Code change: ![Image](images/change1.png)
 
@@ -24,7 +22,7 @@ The bug is caused by the code forever searching for more open brackets, only end
 
 
 
-* Bug: Images addresses are printed as links
+## Bug: Images addresses are printed as links
 
 Code change: ![Image](images/change2.png)
 
@@ -41,7 +39,7 @@ This bug is caused by images and links having very similar characteristics in .m
 
 
 
-* Bug: Links at the start of files are not printed
+## Bug: Links at the start of files are not printed
 
 Code change: ![Image](images/change3.png)
 
