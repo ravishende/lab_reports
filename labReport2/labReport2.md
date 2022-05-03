@@ -28,6 +28,8 @@ Code change: ![Image](images/change2.png)
 
 
 Test file that caused the error: [test3.md](https://github.com/ravishende/markdown-parser/blob/main/test3.md?plain=1)
+
+
 Symptom of bug (output of test): ![Image](images/symptom2.png)
 
 
@@ -45,6 +47,8 @@ Code change: ![Image](images/change3.png)
 
 
 Test file that caused the error: [test4.md](https://github.com/ravishende/markdown-parser/blob/main/test4.md?plain=1)
+
+
 Symptom of bug (output of test): ![Image](images/symptom3.png)
 
 
