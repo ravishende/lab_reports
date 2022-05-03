@@ -2,6 +2,9 @@
 
 # Lab Report 2
 
+
+
+
 ## Bug: Empty line at end of code causes a forever loop
 
 Code change: ![Image](images/change1.png)
