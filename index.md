@@ -2,3 +2,5 @@
 [Lab Report 1](labReport1/labReport1.md)
 
 [Lab Report 2](labReport2/labReport2.md)
+
+[Lab Report 3](labReport3/labReport3.md)
