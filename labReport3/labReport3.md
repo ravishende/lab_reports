@@ -3,7 +3,7 @@
 # Lab Report 3
 
 
-### Streamlining ssh Configuration
+# Streamlining ssh Configuration
 
 * First, I created and then put in the code for my config file, using:
  `touch` to create the file, `vim` to edit the new file, and `cat` to show it.
@@ -42,11 +42,25 @@
 
 
 
-### Setup Github Access from ieng6
 
 
 
-### Copy whole directories with scp -r
+
+
+# Setup Github Access from ieng6
+
+
+
+
+
+
+
+
+
+
+
+
+# Copy whole directories with scp -r
 
 * By using `scp -r`, we can copy the entire markdown-parse directory over to the ieng6 server. As you can see, when I run the command, it copies everything over. (Picture shows some of the files that were copied over)
 
