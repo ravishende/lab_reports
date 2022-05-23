@@ -24,7 +24,8 @@ The output of the other MarkdownParse.java: (failed)
 ![Image](other-test1.png)
 
 
-* I do think that a small code change of less than ten lines would be able to fix this issue, since all you would have to do is if you see a single or triple backtick, change currIndex to the corresponding finishing backtick(s) and carry on from there as usual.
+* I do think that a small code change of less than ten lines would be able to fix this issue, since all you would have to do is:
+ if you see a single or triple backtick, change currIndex to be after the corresponding finishing backtick(s) and carry on from there as usual.
 
 # Test 2
 
