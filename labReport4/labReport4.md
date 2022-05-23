@@ -17,12 +17,12 @@ MarkdownParseTest.java test added:
 ![Image](test1.png)
 
 
-The output of my MarkdownParse.java:
+The output of my MarkdownParse.java: (didn't pass)
 
 ![Image](my-test1.png)
 
 
-The output of the other MarkdownParse.java:
+The output of the other MarkdownParse.java: (didn't pass)
 
 ![Image](other-test1.png)
 
@@ -36,12 +36,12 @@ MarkdownParseTest.java test added:
 ![Image](test2.png)
 
 
-The output of my MarkdownParse.java:
+The output of my MarkdownParse.java: (didn't pass)
 
 ![Image](my-test2.png)
 
 
-The output of the other MarkdownParse.java:
+The output of the other MarkdownParse.java: (didn't pass)
 
 ![Image](other-test2.png)
 
