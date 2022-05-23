@@ -1,6 +1,6 @@
 [Home](../index.md)
 
-# Lab Report 3
+# Lab Report 4
 
 
 [MarkdownParse repo](https://github.com/ravishende/markdown-parser)
