@@ -47,7 +47,7 @@ The output of the other MarkdownParse.java: (failed)
 
 # Test 3
 
-expected output: `[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]`
+expected output: ```[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]```
 
 MarkdownParseTest.java test added:
 ![Image](two-line.png)
