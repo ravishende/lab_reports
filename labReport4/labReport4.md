@@ -13,17 +13,14 @@
 expected output: `[google.com, ucsd.edu]`
 
 MarkdownParseTest.java test added:
-
 ![Image](test1.png)
 
 
-The output of my MarkdownParse.java: (didn't pass)
-
+The output of my MarkdownParse.java: (failed)
 ![Image](my-test1.png)
 
 
-The output of the other MarkdownParse.java: (didn't pass)
-
+The output of the other MarkdownParse.java: (failed)
 ![Image](other-test1.png)
 
 
@@ -32,17 +29,14 @@ The output of the other MarkdownParse.java: (didn't pass)
 expected output: `[a.com, a.com(()), example.com]`
 
 MarkdownParseTest.java test added:
-
 ![Image](test2.png)
 
 
-The output of my MarkdownParse.java: (didn't pass)
-
+The output of my MarkdownParse.java: (failed)
 ![Image](my-test2.png)
 
 
-The output of the other MarkdownParse.java: (didn't pass)
-
+The output of the other MarkdownParse.java: (failed)
 ![Image](other-test2.png)
 
 
@@ -51,15 +45,12 @@ The output of the other MarkdownParse.java: (didn't pass)
 expected output: `[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]`
 
 MarkdownParseTest.java test added:
-
 ![Image](test3.png)
 
 
-The output of my MarkdownParse.java:
-
+The output of my MarkdownParse.java: (failed)
 ![Image](my-test3.png)
 
 
-The output of the other MarkdownParse.java:
-
+The output of the other MarkdownParse.java: (failed)
 ![Image](other-test3.png)
