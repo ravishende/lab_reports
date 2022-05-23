@@ -9,4 +9,20 @@
 *note: I had covid week 7 and therefore could not participate in that lab or do it remotely due to its inherant group nature. So, I am using a version of the markdownParser from week 8 as the other group's mdp instead.
 
 
+# Test 1
 
+expected output: `[google.com, ucsd.edu]`
+
+MarkdownParseTest.java test added:
+
+![Image](test1.png)
+
+
+The output of my MarkdownParse.java:
+
+![Image](my-test1.png)
+
+
+The output of the other MarkdownParse.java:
+
+![Image](other-test1.png)
