@@ -26,3 +26,41 @@ The output of my MarkdownParse.java:
 The output of the other MarkdownParse.java:
 
 ![Image](other-test1.png)
+
+
+# Test 2
+
+expected output: `[a.com, a.com(()), example.com]`
+
+MarkdownParseTest.java test added:
+
+![Image](test2.png)
+
+
+The output of my MarkdownParse.java:
+
+![Image](my-test2.png)
+
+
+The output of the other MarkdownParse.java:
+
+![Image](other-test2.png)
+
+
+# Test 3
+
+expected output: `[google.com, ucsd.edu]`
+
+MarkdownParseTest.java test added:
+
+![Image](test3.png)
+
+
+The output of my MarkdownParse.java:
+
+![Image](my-test3.png)
+
+
+The output of the other MarkdownParse.java:
+
+![Image](other-test3.png)
