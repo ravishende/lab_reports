@@ -1,6 +1,6 @@
 [Home](../index.md)
 
-# Lab Report 4
+# Lab Report 5
 
 * I found the differences in tests by first using a for loop in my script.sh to loop through every file and echo its file name then run the MarkdownParse.java file on it. 
 
