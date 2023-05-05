@@ -32,7 +32,7 @@ Here you can see the vimdiff showing the differences in the tests for test files
 * Other repository's output: 
 ![Image](their-output.png)
 
-* bug: kldjshglkjshdlkfjhslkjghlkglhjskjlghskljhglskjhglkjshlhgsjkhglkjshdhklj
+* bug:
 
 
 ## Test 22:
